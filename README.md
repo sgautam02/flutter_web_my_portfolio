@@ -8,7 +8,6 @@ You can explore the live version of the website [Click to see live demo](https:/
 
 ## Screenshots
 
-<--<img src="showcase.png">-->
 
 ## Table of Contents
 
