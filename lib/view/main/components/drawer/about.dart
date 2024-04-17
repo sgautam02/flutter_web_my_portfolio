@@ -10,26 +10,26 @@ class About extends StatelessWidget {
       aspectRatio: 1.23,
       child: Container(
         color: bgColor,
-        child: Column(
+        child: const Column(
           children: [
-            const Spacer(
+            Spacer(
               flex: 2,
             ),
-            const DrawerImage(),
-            const Spacer(),
+            DrawerImage(),
+            Spacer(),
             Text(
               'Saurabh Gautam',
-              style: Theme.of(context).textTheme.titleSmall,
+              style: TextStyle(color: Colors.black),
             ),
-            const SizedBox(
+            SizedBox(
               height: defaultPadding / 4,
             ),
-            const Text(
+            Text(
               'Flutter Developer & The Student of\nSoftware Engineering',
               textAlign: TextAlign.center,
               style: TextStyle(fontWeight: FontWeight.w200, height: 1.5),
             ),
-            const Spacer(
+            Spacer(
               flex: 2,
             ),
           ],
